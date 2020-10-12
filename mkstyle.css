@@ -1,0 +1,53 @@
+
+div {
+    width: 80%;
+    height: 100%;
+}
+#photoMeg {
+    position: relative;
+    text-align: center;
+    
+    
+    
+}
+
+/*side navigation menu used from a previous project*/
+.sidenav{
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    background-color: hotpink;
+    overflow: auto;
+    
+}
+
+/*the links in the sidebar*/
+.sidenav a{
+    padding: 8px 16px;
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    color: antiquewhite;
+    
+   /* transition: 0.3s; */
+}
+.main{
+    margin-left: 20%;
+    padding: 1px 16px;
+    height: 1000px;
+    
+}
+    
+/* makes it so when you move the mouse, it changes color */
+.sidenav a:active{
+    background-color:blue;
+    color: white;
+}
+.sidenav a:hover:not(.active) {
+    background-color: plum;
+    color: white;
+}
+
+
