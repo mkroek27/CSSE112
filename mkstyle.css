@@ -10,7 +10,14 @@ header {
 }*/
 /*p1 {
     margin-left: 25%;
+<<<<<<< HEAD
 }*/
+=======
+}
+header{
+    font-size: 40px;
+}
+>>>>>>> main
 div {
     width: 75%;
     height: 100%;
