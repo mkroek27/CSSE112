@@ -1,16 +1,16 @@
-p {
+/*p {
    margin-left: 25%;
-}
+}*/
 
 header {
     font-size: 40px;
 }
-ul {
+/*ul {
     margin-left: 25%;
-}
-p1 {
+}*/
+/*p1 {
     margin-left: 25%;
-}
+}*/
 div {
     width: 75%;
     height: 100%;
@@ -19,6 +19,9 @@ div {
     position: relative;
     text-align: center; 
     
+}
+body{
+    background-color: lightpink;
 }
 h1{
     font-family: sans-serif;
